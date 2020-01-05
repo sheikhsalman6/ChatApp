@@ -1,0 +1,15 @@
+.container {
+  margin: auto;
+  width: 60%;
+  height: 60% !important;
+  margin-top: 50px !important;
+}
+
+.bodyDiv {
+  height: 100%;
+  background-color: antiquewhite;
+}
+
+:host >>> .mat-tab-label {
+  min-width: 50% !important;
+}
