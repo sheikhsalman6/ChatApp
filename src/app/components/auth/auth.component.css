@@ -1,15 +1,17 @@
 .container {
   margin: auto;
   width: 60%;
-  height: 60% !important;
-  margin-top: 50px !important;
-}
-
-.bodyDiv {
-  height: 100%;
-  background-color: antiquewhite;
+  height: 70% !important;
 }
 
 :host >>> .mat-tab-label {
   min-width: 50% !important;
+}
+
+.main-div {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #673ab7;
 }

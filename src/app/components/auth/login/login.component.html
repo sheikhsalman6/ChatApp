@@ -1,1 +1,32 @@
-<p>login works!</p>
+<!--<mat-grid-list rowHeight="100%">-->
+<!--  <mat-grid-tile  cols="3" style="color: red">-->
+<!--    <mat-toolbar color="primary">-->
+<!--      <mat-toolbar-row>-->
+<!--        <span>Welcome To Chat App</span>-->
+<!--      </mat-toolbar-row>-->
+<!--    </mat-toolbar>-->
+<!--  </mat-grid-tile>-->
+<!--</mat-grid-list>-->
+<mat-card class="container">
+  <mat-card-content>
+    <form class="example-form">
+      <table class="example-full-width" cellspacing="0">
+        <tr>
+          <td>
+            <mat-form-field class="example-full-width">
+              <input matInput placeholder="Username"  name="username" required>
+            </mat-form-field>
+          </td>
+        </tr>
+        <tr>
+          <td><mat-form-field class="example-full-width">
+            <input matInput placeholder="Password" type="password" name="password" required>
+          </mat-form-field></td>
+        </tr></table>
+    </form>
+    <mat-spinner [style.display]="showSpinner ? 'block' : 'none'"></mat-spinner>
+  </mat-card-content>
+  <mat-card-actions>
+    <button mat-raised-button (click)="login()" color="primary">Login</button>
+  </mat-card-actions>
+</mat-card>

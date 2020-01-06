@@ -1,0 +1,10 @@
+mat-grid-tile {
+  background: lightblue;
+  padding-top: 10px
+}
+.container{
+  height: initial;
+  width: 70% !important;
+  /*background: blue;*/
+  margin: auto;
+}
